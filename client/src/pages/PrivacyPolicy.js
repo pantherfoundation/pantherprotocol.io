@@ -41,7 +41,7 @@ const PrivacyPolicy = () => {
                 <h3>Panther Privacy Policy</h3>
                 <h5>Date of last update: 9 May 2023</h5>
                <p>
-               This Privacy Policy is designed to help you understand how Panther Ventures Limited (“Panther,” “we,” “us,” or “our”) collects, uses, processes, and shares your personal information, and to help you understand and exercise your privacy rights. 
+               This Privacy Policy is designed to help you understand how Panther DAO, acting through its governance mechanisms (“Panther,” “we,” “us,” or “our”) collects, uses, processes, and shares your personal information, and to help you understand and exercise your privacy rights. 
                </p>
 
 
@@ -570,9 +570,8 @@ const PrivacyPolicy = () => {
 
                     <p>If you have any questions about our privacy practices or this Privacy Policy, or to exercise your rights as detailed in this Privacy Policy, please contact us at:</p>
                     <p>
-                    Panther Ventures Limited <br />
-                    Madison Building, Midtown, Queensway, Gibraltar, GX11 1AA <br />
-                    <a href="mailto:info@pantherprotocol.io">info@pantherprotocol.io</a>
+                    Panther DAO<br />
+                    <a href="mailto:pantherdao@protonmail.com">pantherdao@protonmail.com</a>
                     </p>
                 </div>
 
