@@ -39,7 +39,7 @@ const PrivacyPolicy = () => {
         <div>
             <div>
                 <h3>Panther Privacy Policy</h3>
-                <h5>Date of last update: 9 May 2023</h5>
+                <h5>Date of last update: 6 March 2026</h5>
                <p>
                This Privacy Policy is designed to help you understand how Panther DAO, acting through its governance mechanisms (“Panther,” “we,” “us,” or “our”) collects, uses, processes, and shares your personal information, and to help you understand and exercise your privacy rights. 
                </p>
