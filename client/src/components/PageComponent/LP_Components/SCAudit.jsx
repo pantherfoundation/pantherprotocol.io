@@ -63,6 +63,7 @@ const SCAudit = () => {
                 <Col  data-aos-once='true'  data-aos="fade-up" data-aos-duration="200" data-aos-offset="-170"  data-aos-delay="400" data-aos-anchor-placement="top-center" xs={24} sm={12} md={12} lg={6} xl={6}>
                 <div className='sec-card'  >
                 <div className='sec-overlay' style={{cursor:'not-allowed'}}>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a href="#" onClick={(e) => e.preventDefault()} target="_blank" rel="noopener noreferrer" style={{ cursor: 'not-allowed', pointerEvents: 'none', color: 'gray' }}>
                     <div className='sec-layer'>
                         <img height="36px" width="155px" src={logo13} alt='Panther Protocol' />

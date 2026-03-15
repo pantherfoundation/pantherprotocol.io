@@ -43,8 +43,8 @@ const Footer = () => {
             <Col xs={12} sm={12} md={5} lg={4} xl={4}>
             <h3> Resources </h3>
               <ul className='ft-links'>
-              <li><a target="_blank" rel="noopener" href="https://docs.pantherprotocol.io">Documentation</a></li>
-              <li><a href="https://blog.pantherprotocol.io/" rel="nofollow noopener" target="_blank">Panther Blog</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://docs.pantherprotocol.io">Documentation</a></li>
+              <li><a href="https://blog.pantherprotocol.io/" rel="nofollow noopener noreferrer" target="_blank">Panther Blog</a></li>
                 </ul>
             </Col>
             <Col xs={12} sm={12} md={5} lg={4} xl={4}>

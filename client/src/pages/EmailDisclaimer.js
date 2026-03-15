@@ -1,14 +1,12 @@
 import {useState} from 'react'
 import Wrapper from './Styles/EmailDisclaimer'
-import {NewsletterSec} from '../components/PageComponent/LP_Components'
 import { Helmet } from 'react-helmet';
 import OGImg from '../assets/Images/og_panther.png'
 import { Navbar } from '../components/SharedComponent';
-import { Link } from 'react-router-dom';
 import {Footer} from '../components/SharedComponent';
 
 const EmailDisclaimer = () => {
-  const [update, setUpdate] = useState(true)
+  const [, setUpdate] = useState(true)
 
   const handleUpdate = (id)=>{
     if(id === true){

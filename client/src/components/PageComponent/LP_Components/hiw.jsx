@@ -1,7 +1,7 @@
 import Wrapper from './Styles/hiw'
 import { Col, Row } from 'antd'
 import React, { useState} from 'react'
-import {motion,AnimatePresence} from 'framer-motion'
+import {motion} from 'framer-motion' // eslint-disable-line no-unused-vars
 
 
 
@@ -23,7 +23,7 @@ import video04 from '../../../assets/hiw/animations_new/04/video4m.mp4'
 
 const Hiw = () => {
     const [slide, setSlide ] = useState(0)
-    const slideLeft = ()=>{
+    const slideLeft = ()=>{ // eslint-disable-line no-unused-vars
       videoPlay()
 
       if(slide>0){
@@ -38,19 +38,14 @@ const Hiw = () => {
       let videoPlay = document.getElementsByClassName("videoPlayFix")
       let videoArray = Object.keys(videoPlay).map((k) => videoPlay[k])
 
-      
-
-    videoArray?.map((video)=>{
-      if(video.playing){
-        return;
-      } else {
+    videoArray?.forEach((video)=>{
+      if(!video.playing){
         video.play()
-        
       }
     })
     }
 
-    const slideRight = ()=>{
+    const slideRight = ()=>{ // eslint-disable-line no-unused-vars
       videoPlay()
       if(slide<2){
         setSlide(slide+1)

@@ -11,6 +11,7 @@ import styled from 'styled-components'
 
 
 
+// eslint-disable-next-line no-unused-vars
 const LeftGrad = styled.div`
 position:absolute;
 height:120%;
@@ -172,7 +173,7 @@ const BlogSection = () => {
             
               </Swiper>
            
-              <a className='read_more' target='_blank' rel="nofollow noopener" href="https://blog.pantherprotocol.io/"><p><span>Visit our blog</span>  <img  width="15px" height="21px" src={arrowGreen} alt='Arrow Right - Panther Protocol' /></p></a>
+              <a className='read_more' target='_blank' rel="nofollow noopener noreferrer" href="https://blog.pantherprotocol.io/"><p><span>Visit our blog</span>  <img  width="15px" height="21px" src={arrowGreen} alt='Arrow Right - Panther Protocol' /></p></a>
             </Row>
 
             <div className='slider-btn' >

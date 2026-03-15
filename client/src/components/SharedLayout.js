@@ -14,15 +14,10 @@ const SharedLayout = () => {
     let videoArray = Object.keys(videoPlay).map((k) => videoPlay[k])
     // let videoArray2 = Object.keys(videoPlay2).map((k) => videoPlay2[k])
 
-    videoArray?.map((video)=>{
-      if(video.playing){
-        return;
-      } else {
+    videoArray?.forEach((video)=>{
+      if(!video.playing){
         video.play()
-        
       }
-
-
     })
 
     // videoArray2?.map((video)=>{

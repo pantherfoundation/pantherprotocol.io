@@ -8,7 +8,7 @@ import { Navbar,Footer } from '../components/SharedComponent';
 import { Col, Row } from 'antd';
 
 const PrivacyPolicy = () => {
-    const [update, setUpdate] = useState(true)
+    const [, setUpdate] = useState(true)
 
     const handleUpdate = (id)=>{
         if(id === true){

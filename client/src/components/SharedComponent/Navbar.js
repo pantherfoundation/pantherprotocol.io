@@ -12,9 +12,6 @@ import { Dropdown } from 'antd';
 import {BiLinkExternal} from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 import { ROUTES } from '../../routes/constRoutes'
-import tpra from '../../assets/Images/tp-right-arrow.svg'
-import PantherWhitePaper from '../../assets/resources/panther-protocol-v-1-0-1.pdf'
-import arrowRight from '../../assets/Images/arrowRightW.svg'
 
 // ArrowDown
 import { Menu } from 'antd';
@@ -88,7 +85,7 @@ const Navbar = ({updateValue}) => {
     {
       key: '2',
       label: (
-        <a  onClick={()=>setHovered(false)}className='dropdown-link' target="_blank" rel="noopener" href="https://docs.pantherprotocol.io">
+        <a  onClick={()=>setHovered(false)}className='dropdown-link' target="_blank" rel="noopener noreferrer" href="https://docs.pantherprotocol.io">
           <span>Docs & FAQS</span> 
           <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M3.27096 3.5859L9.021 3.5859L9.021 9.33594" stroke="#C0C1C2" strokeWidth="2.03295" strokeLinecap="round" strokeLinejoin="round"/>
@@ -100,7 +97,7 @@ const Navbar = ({updateValue}) => {
     
   ];
 
-   const items = [
+   const items = [ // eslint-disable-line no-unused-vars
     {
       key: '1',
       label: (
@@ -131,7 +128,7 @@ const Navbar = ({updateValue}) => {
 
   const [dropDown, setDropDown] = useState(0)
   const [hovered, setHovered] = useState(false)
-  const [hovered2, setHovered2] = useState(false)
+  const [, setHovered2] = useState(false) // eslint-disable-line no-unused-vars
   const [isOpen, setIsOpen] = useState(false)
 
   useEffect(()=>{
@@ -176,7 +173,7 @@ const Navbar = ({updateValue}) => {
                   items:lists
                 }}
                 onOpenChange = {()=>setHovered(!hovered)}>
-              <a className={ hovered ? ' hovered dropdown-link': 'dropdown-link'} onClick={(e) => e.preventDefault()}><span>Resources</span> 
+              <a href="#resources" className={ hovered ? ' hovered dropdown-link': 'dropdown-link'} onClick={(e) => e.preventDefault()}><span>Resources</span> 
                 <svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M10.0507 1.24024L5.98484 5.30613L1.91895 1.24023" stroke="white" strokeWidth="2.03295" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
@@ -186,7 +183,7 @@ const Navbar = ({updateValue}) => {
 
           
                  
-          <li><a style={{width:"auto"}} href="https://blog.pantherprotocol.io/" rel="nofollow noopener" className=' hovered2 dropdown-link' target="_blank"><span>Blog</span></a></li>
+          <li><a style={{width:"auto"}} href="https://blog.pantherprotocol.io/" rel="nofollow noopener noreferrer" className=' hovered2 dropdown-link' target="_blank"><span>Blog</span></a></li>
            </ul>
           
           
@@ -226,7 +223,7 @@ const Navbar = ({updateValue}) => {
               </svg>
               </li>
                 <div className={dropDown === 1 ? 'resp-dropdown active' : 'resp-dropdown'}>
-                 <a onClick={()=>setIsOpen(false)}  target='_blank' rel="noopener" href="https://docs.pantherprotocol.io"><li><span>Docs & FAQS</span> <BiLinkExternal /></li></a>
+                 <a onClick={()=>setIsOpen(false)}  target='_blank' rel="noopener noreferrer" href="https://docs.pantherprotocol.io"><li><span>Docs & FAQS</span> <BiLinkExternal /></li></a>
                   <Link onClick={()=>setIsOpen(false)} to='/resources/REP-Panther-ZKP-Vesting.pdf' target='_blank'><li><span>Certik Audit - ZKP Vesting</span> <BiLinkExternal /></li></Link>
                   <a onClick={()=>setIsOpen(false)}  target='_blank' rel="noopener noreferrer" href='/resources/REP-Panther-ZKP-Token.pdf'><li><span>Certik Audit - ZKP Token</span> <BiLinkExternal /></li></a>
                   
@@ -234,7 +231,7 @@ const Navbar = ({updateValue}) => {
                 </div>
             
 
-                <a href="https://blog.pantherprotocol.io/" rel="nofollow noopener" target="_blank"><li><span>Blog</span></li></a>
+                <a href="https://blog.pantherprotocol.io/" rel="nofollow noopener noreferrer" target="_blank"><li><span>Blog</span></li></a>
               </ul>
 
 
