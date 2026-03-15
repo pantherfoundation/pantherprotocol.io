@@ -77,7 +77,7 @@ const AppRoutes = () => {
       showModal(true)
     }
    
-  },[tagManagerArgs])
+  },[]) // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <BrowserRouter>

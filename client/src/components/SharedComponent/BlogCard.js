@@ -12,7 +12,7 @@ const BlogCard = ({item}) => {
         
         <div className='sec-layer'>
 
-        <a target='_blank' href={item?.link}>
+        <a target='_blank' rel="noreferrer" href={item?.link}>
           <div className='img-container'>
             {item?.img}
           </div>

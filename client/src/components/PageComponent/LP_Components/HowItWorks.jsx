@@ -34,6 +34,7 @@ import videos5 from '../../../assets/hiw/animations_new/05/video5.mp4'
 import video05 from '../../../assets/hiw/animations_new/05/video5m.mp4'
 
 
+// eslint-disable-next-line no-unused-vars
 const LeftGrad = styled.div`
 position:absolute;
 height:60%;
@@ -84,6 +85,7 @@ img{
 
 `
 
+// eslint-disable-next-line no-unused-vars
 const RightGrad = styled.div`
 
 position:absolute;
@@ -166,12 +168,9 @@ const HowItWorks = () => {
 
       
 
-    videoArray?.map((video)=>{
-      if(video.playing){
-        return;
-      } else {
+    videoArray?.forEach((video)=>{
+      if(!video.playing){
         video.play()
-        
       }
     })
     }

@@ -35,7 +35,7 @@ const Footer = () => {
               <div className='ft-about'>
                 <Link to={ROUTES.INDEX}><img height="50px" width="216px" src={pantherLogo} alt="Panther Protocol" /></Link>
                 <p>Panther is developing a modular solution that will allow enterprises to operate confidential trading Zones with programmable rules.</p>
-                <p>Panther Ventures Limited is a web3 software development company and is not authorized to provide financial services.</p>
+                <p>Panther Protocol is operated by Panther DAO, which publishes non-custodial, open-source  software enabling users to interact directly with public blockchain smart contracts. Panther DAO does not provide custodial services or financial services.</p>
               </div>
 
              
@@ -43,8 +43,8 @@ const Footer = () => {
             <Col xs={12} sm={12} md={5} lg={4} xl={4}>
             <h3> Resources </h3>
               <ul className='ft-links'>
-              <li><a target="_blank" rel="noopener" href="https://docs.pantherprotocol.io">Documentation</a></li>
-              <li><a href="https://blog.pantherprotocol.io/" rel="nofollow noopener" target="_blank">Panther Blog</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://docs.pantherprotocol.io">Documentation</a></li>
+              <li><a href="https://blog.pantherprotocol.io/" rel="nofollow noopener noreferrer" target="_blank">Panther Blog</a></li>
                 </ul>
             </Col>
             <Col xs={12} sm={12} md={5} lg={4} xl={4}>
@@ -65,7 +65,7 @@ const Footer = () => {
             <a href='https://www.linkedin.com/company/zkpanther/' target="_blank" rel="noopener noreferrer" ><img height="27px" width="27px"  src={linkedin} alt='Panther Protocol on LinkedIn' /></a>
             <a href='https://github.com/pantherprotocol/panther-core' target="_blank" rel="noopener noreferrer" ><img height="27px" width="27px"  src={github} alt='Panther Protocol on GitHub' /></a>
             </div>
-            <p className='btm-footer'>© {year} Panther Ventures Limited. All Rights Reserved.</p>
+            <p className='btm-footer'>© {year} Panther DAO. Site content owned by Panther DAO. Trademarks licensed from Panther Protocol Foundation.</p>
         </div>
        
          

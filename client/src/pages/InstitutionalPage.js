@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet'
 import {useState} from 'react'
-import InstiHero from '../components/InstitutionalComponent/InstiHero'
 import {NewsletterSec} from '../components/PageComponent/LP_Components'
 import InstiForm from '../components/InstitutionalComponent/InstiForm'
 import { Footer } from '../components/SharedComponent'
@@ -9,7 +8,7 @@ import {Navbar} from '../components/SharedComponent'
 
 const InstitutionalPage = () => {
 
-  const [update, setUpdate] = useState(true)
+  const [, setUpdate] = useState(true)
 
 
   const handleUpdate = (id)=>{

@@ -8,17 +8,9 @@ import { Link } from 'react-router-dom'
 
 
 const HeroSection = () => {
-  const [update, setUpdate] = useState(true)
-  const [first, setFirst] = useState(true)
+  const [, setUpdate] = useState(true)
 
-  const videoRef = useRef(null)
-
-  const handleVideoEnded = ()=>{
-    // setFirst(false)
-    const videoTitle = videoRef.current;
-    videoTitle.currentTime = 6;
-    videoTitle.play();
-  }
+  const videoRef = useRef(null) // eslint-disable-line no-unused-vars
 
   const handleUpdate = (id)=>{
     if(id === true){
