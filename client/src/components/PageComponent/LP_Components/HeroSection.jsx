@@ -4,7 +4,6 @@ import LogoRolls from './LogoRolls'
 import { Navbar } from '../../SharedComponent'
 import { ROUTES } from '../../../routes/constRoutes'
 import arrowRight from '../../../assets/Images/arrowRightW.svg'
-import { Link } from 'react-router-dom'
 
 
 const HeroSection = () => {
@@ -38,7 +37,6 @@ const HeroSection = () => {
             <p data-aos="fade-up" data-aos-easing="linear"  data-aos-duration="300" data-aos-delay="300"> Panther is building a modular solution for financial service providers to operate private trading Zones with customizable rules, defining the future of confidential on-chain finance.</p>
             <a href={ROUTES.DeFi_APP} target="_blank" rel="nofollow noopener noreferrer">
               <div className='glow-effects' data-aos="fade-up" data-aos-offset="-200" data-aos-easing="linear" data-aos-duration="300" data-aos-delay="600" >
-              <Link to="/contact-us" rel="noopener">
               <button className='button'>
                     <svg className='btn-svg' width="226" height="61" viewBox="0 0 226 61" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g filter="url(#filter0_b_9_2218)">
@@ -58,9 +56,8 @@ const HeroSection = () => {
                         </linearGradient>
                         </defs>
                     </svg>
-                    <span>Contact Us <img width="10px" height="14px" src={arrowRight} alt='Panther Protocol' /></span>
+                    <span>Launch dApp <img width="10px" height="14px" src={arrowRight} alt='Panther Protocol' /></span>
                 </button>
-                </Link>
               </div>
               </a>
           </div>
