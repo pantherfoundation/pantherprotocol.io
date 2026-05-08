@@ -4,5 +4,5 @@ export const ROUTES = {
     EMAIL_DISCLAIMER:'/terms-of-use',
     ROADMAP: '/roadmap',
     CONTACT: '/contact-us',
-    DeFi_APP : 'https://pantherdao.app'
+    DeFi_APP : 'https://ipfs.io/ipfs/bafybeifypar2n6nke2if6e5e5y3r6275dmpl5h5hnoi4cwg4b4m43p2kzm'
 }
